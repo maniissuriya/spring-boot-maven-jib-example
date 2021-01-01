@@ -21,6 +21,9 @@ If all worked, the container will say
 ```
 Hello world
 ```
+
+As it is written now, it will run on a Raspberry Pi 3. For other systems you may need to adapt the base docker image in [pom.xml](pom.xml).
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
