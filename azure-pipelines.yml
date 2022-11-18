@@ -17,3 +17,6 @@ steps:
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
     goals: compile jib:dockerBuild
+
+- script: |
+    docker run myimagename 
